@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+.container{
+    background: #fff;
+    width: 50%;
+    max-width: 600px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+#main-start h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#instruct {
+    text-align: left;
+    line-height: 1.7;
+}
+#instruct h1 {
+    color: #007bff;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+#instruct h1::before {
+    content: "📘";
+    margin-right: 8px;
+}
+#instruct h2 {
+    font-size: 22px;
+    color: #333;
+    margin: 10px 0;
+}
+#instruct h3 {
+    font-size: 18px;
+    margin: 15px 0 5px;
+    color: #000;
+}
+#instruct ul {
+    padding-left: 40px;
+    margin: 6px 0 12px;
+}
+#instruct li {
+    margin: 5px 0;
+}
+#instruct p {
+    margin: 10px 0;
+    color: #333;
+}
+#timer {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#question {
+    font-size: 20px;
+    font-weight: bold;
+    margin:50px 0px;
+    color: #222;
+}
+#questions h1{
+    color: purple;
+    padding-bottom: 20px;
+}
+#questions h2{
+    font-size: 28px;
+}
+.option {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.option:hover {
+    
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+#startBtn {
+    margin-top: 20px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 15px;
+    background: #007bff;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#startBtn:hover {
+    background: #0056b3;
+}
+#result {
+    text-align: center;
+    margin-top: 20px;
+}
+#result h1 {
+    font-size: 30px;
+    color: rgb(152, 152, 240);
+    margin-bottom: 10px;
+}
+#marks {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+}
+#review{
+    font-size: 22px;
+    font-weight: bold;
+}
